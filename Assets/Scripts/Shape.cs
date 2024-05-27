@@ -50,6 +50,6 @@ public abstract class Shape : MonoBehaviour
 
     protected void Welcoming()
     {
-        Debug.Log("Welcome, Please click the shapes to see what happens in the console!");
+        Debug.Log("Welcome, Click me to see what happens in the console!");
     }
 }
