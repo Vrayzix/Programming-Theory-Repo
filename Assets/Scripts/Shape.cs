@@ -26,6 +26,11 @@ public abstract class Shape : MonoBehaviour
         }
     }
 
+    private void Start()
+    {
+        Welcoming();
+    }
+
     private void OnMouseDown()
     {
         DisplayText();
@@ -41,5 +46,10 @@ public abstract class Shape : MonoBehaviour
         {
             Debug.Log(Color);
         }
+    }
+
+    protected void Welcoming()
+    {
+        Debug.Log("Welcome, Please click the shapes to see what happens in the console!");
     }
 }
